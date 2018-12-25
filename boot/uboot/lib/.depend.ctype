@@ -1,0 +1,2 @@
+ctype.o: ctype.c \
+  /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/linux/ctype.h

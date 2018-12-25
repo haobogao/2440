@@ -1,0 +1,16 @@
+bzlib_huffman.o: bzlib_huffman.c \
+  /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/config.h \
+  /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/config_cmd_defaults.h \
+  /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/config_defaults.h \
+  /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/configs/smdk2440.h \
+  /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/config_cmd_default.h \
+  /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/asm/config.h \
+  bzlib_private.h \
+  /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/malloc.h \
+  /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/linux/stddef.h \
+  /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/linux/types.h \
+  /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/linux/config.h \
+  /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/linux/posix_types.h \
+  /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/asm/posix_types.h \
+  /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/asm/types.h \
+  /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/bzlib.h

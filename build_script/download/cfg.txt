@@ -1,0 +1,1 @@
+0 1 1 1 0 /home/haobo/work/data/2440/2440_src/develop/out/u-boot.bin
