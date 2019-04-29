@@ -41,13 +41,14 @@ echo $*
 #if it is build command
 if [ "$1"x = "build"x ] 
 then
-	export PATH=/opt/usr/local/arm/4.3.2/bin:$PATH
+	. setenv.sh
+	echo $PATH
 	echo_path
 	if [ "$2"x = "uboot"x ]
 	then
 		cd $uboot_path
-		#make distclean
-		#make smdk2440 -j16
+		make distclean
+		make smdk2440 -j16
 	 	if [  -f "$uboot_path/u-boot.bin" ]
 		then
 	 		cp $uboot_path/u-boot.bin $src_root/out
@@ -60,7 +61,7 @@ elif [ "$1"x = "download"x ]
 then
 	cd $down_path
 	sudo -S ./down.sh $out_path/u-boot.bin <<EOF
-741741
+ 
 EOF
 
 # clean

@@ -1,7 +1,6 @@
-memsize.o: memsize.c \
-  /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/config.h \
-  /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/config_cmd_defaults.h \
-  /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/config_defaults.h \
-  /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/configs/smdk2440.h \
-  /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/config_cmd_default.h \
-  /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/asm/config.h
+memsize.o: memsize.c /home/haobo/work/2440/boot/uboot/include/config.h \
+  /home/haobo/work/2440/boot/uboot/include/config_cmd_defaults.h \
+  /home/haobo/work/2440/boot/uboot/include/config_defaults.h \
+  /home/haobo/work/2440/boot/uboot/include/configs/smdk2440.h \
+  /home/haobo/work/2440/boot/uboot/include/config_cmd_default.h \
+  /home/haobo/work/2440/boot/uboot/include/asm/config.h

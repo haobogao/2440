@@ -240,13 +240,12 @@ main:
 	.ascii	"unsigned int\000"
 .LASF10:
 	.ascii	"GNU C 4.3.2\000"
-.LASF12:
-	.ascii	"/home/haobo/work/data/2440/2440_src/develop/boot/ub"
-	.ascii	"oot\000"
 .LASF3:
 	.ascii	"signed char\000"
 .LASF11:
 	.ascii	"lib/asm-offsets.c\000"
+.LASF12:
+	.ascii	"/home/haobo/work/2440/boot/uboot\000"
 .LASF13:
 	.ascii	"main\000"
 .LASF7:

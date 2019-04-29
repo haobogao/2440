@@ -1,14 +1,13 @@
-env_embedded.o: \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/common/env_embedded.c \
+env_embedded.o: /home/haobo/work/2440/boot/uboot/common/env_embedded.c \
  /usr/include/stdc-predef.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/config.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/config_cmd_defaults.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/config_defaults.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/configs/smdk2440.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/config_cmd_default.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/asm/config.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/environment.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/compiler.h \
+ /home/haobo/work/2440/boot/uboot/include/config.h \
+ /home/haobo/work/2440/boot/uboot/include/config_cmd_defaults.h \
+ /home/haobo/work/2440/boot/uboot/include/config_defaults.h \
+ /home/haobo/work/2440/boot/uboot/include/configs/smdk2440.h \
+ /home/haobo/work/2440/boot/uboot/include/config_cmd_default.h \
+ /home/haobo/work/2440/boot/uboot/include/asm/config.h \
+ /home/haobo/work/2440/boot/uboot/include/environment.h \
+ /home/haobo/work/2440/boot/uboot/include/compiler.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -68,12 +67,11 @@ env_embedded.o: \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/x86_64-linux-gnu/bits/stat.h /usr/include/byteswap.h \
  /usr/include/search.h
-image.o: \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/common/image.c \
+image.o: /home/haobo/work/2440/boot/uboot/common/image.c \
  /usr/include/stdc-predef.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/tools/mkimage.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/tools/os_support.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/compiler.h \
+ /home/haobo/work/2440/boot/uboot/tools/mkimage.h \
+ /home/haobo/work/2440/boot/uboot/tools/os_support.h \
+ /home/haobo/work/2440/boot/uboot/include/compiler.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -141,22 +139,21 @@ image.o: \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/sha1.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/tools/fdt_host.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/tools/../include/fdt.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/tools/../include/libfdt.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/libfdt_env.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/compiler.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/fdt.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/tools/../include/fdt_support.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/u-boot/md5.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/image.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/libfdt.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/fdt_support.h
-crc32.o: \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/lib/crc32.c \
+ /home/haobo/work/2440/boot/uboot/include/sha1.h \
+ /home/haobo/work/2440/boot/uboot/tools/fdt_host.h \
+ /home/haobo/work/2440/boot/uboot/tools/../include/fdt.h \
+ /home/haobo/work/2440/boot/uboot/tools/../include/libfdt.h \
+ /home/haobo/work/2440/boot/uboot/include/libfdt_env.h \
+ /home/haobo/work/2440/boot/uboot/include/compiler.h \
+ /home/haobo/work/2440/boot/uboot/include/fdt.h \
+ /home/haobo/work/2440/boot/uboot/tools/../include/fdt_support.h \
+ /home/haobo/work/2440/boot/uboot/include/u-boot/md5.h \
+ /home/haobo/work/2440/boot/uboot/include/image.h \
+ /home/haobo/work/2440/boot/uboot/include/libfdt.h \
+ /home/haobo/work/2440/boot/uboot/include/fdt_support.h
+crc32.o: /home/haobo/work/2440/boot/uboot/lib/crc32.c \
  /usr/include/stdc-predef.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/compiler.h \
+ /home/haobo/work/2440/boot/uboot/include/compiler.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -215,11 +212,11 @@ crc32.o: \
  /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/x86_64-linux-gnu/bits/stat.h /usr/include/byteswap.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/u-boot/crc.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/u-boot/zlib.h
-md5.o: /home/haobo/work/data/2440/2440_src/develop/boot/uboot/lib/md5.c \
+ /home/haobo/work/2440/boot/uboot/include/u-boot/crc.h \
+ /home/haobo/work/2440/boot/uboot/include/u-boot/zlib.h
+md5.o: /home/haobo/work/2440/boot/uboot/lib/md5.c \
  /usr/include/stdc-predef.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/compiler.h \
+ /home/haobo/work/2440/boot/uboot/include/compiler.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -278,8 +275,8 @@ md5.o: /home/haobo/work/data/2440/2440_src/develop/boot/uboot/lib/md5.c \
  /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/x86_64-linux-gnu/bits/stat.h /usr/include/byteswap.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/u-boot/md5.h
-sha1.o: /home/haobo/work/data/2440/2440_src/develop/boot/uboot/lib/sha1.c \
+ /home/haobo/work/2440/boot/uboot/include/u-boot/md5.h
+sha1.o: /home/haobo/work/2440/boot/uboot/lib/sha1.c \
  /usr/include/stdc-predef.h /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -291,10 +288,9 @@ sha1.o: /home/haobo/work/data/2440/2440_src/develop/boot/uboot/lib/sha1.c \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/watchdog.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/sha1.h
-envcrc.o: \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/tools/envcrc.c \
+ /home/haobo/work/2440/boot/uboot/include/watchdog.h \
+ /home/haobo/work/2440/boot/uboot/include/sha1.h
+envcrc.o: /home/haobo/work/2440/boot/uboot/tools/envcrc.c \
  /usr/include/stdc-predef.h /usr/include/errno.h /usr/include/features.h \
  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -355,14 +351,13 @@ envcrc.o: \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/config.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/config_cmd_defaults.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/config_defaults.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/configs/smdk2440.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/config_cmd_default.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/asm/config.h
-gen_eth_addr.o: \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/tools/gen_eth_addr.c \
+ /home/haobo/work/2440/boot/uboot/include/config.h \
+ /home/haobo/work/2440/boot/uboot/include/config_cmd_defaults.h \
+ /home/haobo/work/2440/boot/uboot/include/config_defaults.h \
+ /home/haobo/work/2440/boot/uboot/include/configs/smdk2440.h \
+ /home/haobo/work/2440/boot/uboot/include/config_cmd_default.h \
+ /home/haobo/work/2440/boot/uboot/include/asm/config.h
+gen_eth_addr.o: /home/haobo/work/2440/boot/uboot/tools/gen_eth_addr.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -417,11 +412,10 @@ gen_eth_addr.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h
-img2srec.o: \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/tools/img2srec.c \
+img2srec.o: /home/haobo/work/2440/boot/uboot/tools/img2srec.c \
  /usr/include/stdc-predef.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/tools/os_support.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/compiler.h \
+ /home/haobo/work/2440/boot/uboot/tools/os_support.h \
+ /home/haobo/work/2440/boot/uboot/include/compiler.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -487,11 +481,10 @@ img2srec.o: \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h
-fdt.o: \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/lib/libfdt/fdt.c \
+fdt.o: /home/haobo/work/2440/boot/uboot/lib/libfdt/fdt.c \
  /usr/include/stdc-predef.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/libfdt_env.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/compiler.h \
+ /home/haobo/work/2440/boot/uboot/include/libfdt_env.h \
+ /home/haobo/work/2440/boot/uboot/include/compiler.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -550,17 +543,16 @@ fdt.o: \
  /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/x86_64-linux-gnu/bits/stat.h /usr/include/byteswap.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/tools/fdt_host.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/tools/../include/fdt.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/tools/../include/libfdt.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/fdt.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/tools/../include/fdt_support.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/lib/libfdt/libfdt_internal.h
-fdt_ro.o: \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/lib/libfdt/fdt_ro.c \
+ /home/haobo/work/2440/boot/uboot/tools/fdt_host.h \
+ /home/haobo/work/2440/boot/uboot/tools/../include/fdt.h \
+ /home/haobo/work/2440/boot/uboot/tools/../include/libfdt.h \
+ /home/haobo/work/2440/boot/uboot/include/fdt.h \
+ /home/haobo/work/2440/boot/uboot/tools/../include/fdt_support.h \
+ /home/haobo/work/2440/boot/uboot/lib/libfdt/libfdt_internal.h
+fdt_ro.o: /home/haobo/work/2440/boot/uboot/lib/libfdt/fdt_ro.c \
  /usr/include/stdc-predef.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/libfdt_env.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/compiler.h \
+ /home/haobo/work/2440/boot/uboot/include/libfdt_env.h \
+ /home/haobo/work/2440/boot/uboot/include/compiler.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -619,17 +611,16 @@ fdt_ro.o: \
  /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/x86_64-linux-gnu/bits/stat.h /usr/include/byteswap.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/tools/fdt_host.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/tools/../include/fdt.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/tools/../include/libfdt.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/fdt.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/tools/../include/fdt_support.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/lib/libfdt/libfdt_internal.h
-fdt_rw.o: \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/lib/libfdt/fdt_rw.c \
+ /home/haobo/work/2440/boot/uboot/tools/fdt_host.h \
+ /home/haobo/work/2440/boot/uboot/tools/../include/fdt.h \
+ /home/haobo/work/2440/boot/uboot/tools/../include/libfdt.h \
+ /home/haobo/work/2440/boot/uboot/include/fdt.h \
+ /home/haobo/work/2440/boot/uboot/tools/../include/fdt_support.h \
+ /home/haobo/work/2440/boot/uboot/lib/libfdt/libfdt_internal.h
+fdt_rw.o: /home/haobo/work/2440/boot/uboot/lib/libfdt/fdt_rw.c \
  /usr/include/stdc-predef.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/libfdt_env.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/compiler.h \
+ /home/haobo/work/2440/boot/uboot/include/libfdt_env.h \
+ /home/haobo/work/2440/boot/uboot/include/compiler.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -688,17 +679,17 @@ fdt_rw.o: \
  /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/x86_64-linux-gnu/bits/stat.h /usr/include/byteswap.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/tools/fdt_host.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/tools/../include/fdt.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/tools/../include/libfdt.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/fdt.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/tools/../include/fdt_support.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/lib/libfdt/libfdt_internal.h
+ /home/haobo/work/2440/boot/uboot/tools/fdt_host.h \
+ /home/haobo/work/2440/boot/uboot/tools/../include/fdt.h \
+ /home/haobo/work/2440/boot/uboot/tools/../include/libfdt.h \
+ /home/haobo/work/2440/boot/uboot/include/fdt.h \
+ /home/haobo/work/2440/boot/uboot/tools/../include/fdt_support.h \
+ /home/haobo/work/2440/boot/uboot/lib/libfdt/libfdt_internal.h
 fdt_strerror.o: \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/lib/libfdt/fdt_strerror.c \
+ /home/haobo/work/2440/boot/uboot/lib/libfdt/fdt_strerror.c \
  /usr/include/stdc-predef.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/libfdt_env.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/compiler.h \
+ /home/haobo/work/2440/boot/uboot/include/libfdt_env.h \
+ /home/haobo/work/2440/boot/uboot/include/compiler.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -757,17 +748,16 @@ fdt_strerror.o: \
  /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/x86_64-linux-gnu/bits/stat.h /usr/include/byteswap.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/tools/fdt_host.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/tools/../include/fdt.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/tools/../include/libfdt.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/fdt.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/tools/../include/fdt_support.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/lib/libfdt/libfdt_internal.h
-fdt_wip.o: \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/lib/libfdt/fdt_wip.c \
+ /home/haobo/work/2440/boot/uboot/tools/fdt_host.h \
+ /home/haobo/work/2440/boot/uboot/tools/../include/fdt.h \
+ /home/haobo/work/2440/boot/uboot/tools/../include/libfdt.h \
+ /home/haobo/work/2440/boot/uboot/include/fdt.h \
+ /home/haobo/work/2440/boot/uboot/tools/../include/fdt_support.h \
+ /home/haobo/work/2440/boot/uboot/lib/libfdt/libfdt_internal.h
+fdt_wip.o: /home/haobo/work/2440/boot/uboot/lib/libfdt/fdt_wip.c \
  /usr/include/stdc-predef.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/libfdt_env.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/compiler.h \
+ /home/haobo/work/2440/boot/uboot/include/libfdt_env.h \
+ /home/haobo/work/2440/boot/uboot/include/compiler.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -826,9 +816,9 @@ fdt_wip.o: \
  /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/x86_64-linux-gnu/bits/stat.h /usr/include/byteswap.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/tools/fdt_host.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/tools/../include/fdt.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/tools/../include/libfdt.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/include/fdt.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/tools/../include/fdt_support.h \
- /home/haobo/work/data/2440/2440_src/develop/boot/uboot/lib/libfdt/libfdt_internal.h
+ /home/haobo/work/2440/boot/uboot/tools/fdt_host.h \
+ /home/haobo/work/2440/boot/uboot/tools/../include/fdt.h \
+ /home/haobo/work/2440/boot/uboot/tools/../include/libfdt.h \
+ /home/haobo/work/2440/boot/uboot/include/fdt.h \
+ /home/haobo/work/2440/boot/uboot/tools/../include/fdt_support.h \
+ /home/haobo/work/2440/boot/uboot/lib/libfdt/libfdt_internal.h

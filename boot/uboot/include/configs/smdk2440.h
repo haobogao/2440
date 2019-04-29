@@ -123,7 +123,7 @@
 
 #define CONFIG_NETMASK		255.255.255.0
 #define CONFIG_IPADDR		192.168.2.17
-#define CONFIG_SERVERIP		192.168.2.118
+#define CONFIG_SERVERIP		192.168.2.109
 #define CONFIG_ETHADDR      00:0c:29:4d:e4:f4
 
 #if defined(CONFIG_CMD_KGDB)
@@ -136,7 +136,7 @@
  * Miscellaneous configurable options
  */
 #define CONFIG_SYS_LONGHELP		/* undef to save memory */
-#define CONFIG_SYS_PROMPT	"haobo#"
+#define CONFIG_SYS_PROMPT	"haobo# "
 #define CONFIG_SYS_CBSIZE	256
 /* Print Buffer Size */
 #define CONFIG_SYS_PBSIZE	(CONFIG_SYS_CBSIZE + \
@@ -163,7 +163,7 @@
 
 #define CONFIG_CMD_NAND_YAFFS
 
-#define CONFIG_BOOTARGS "console=ttySAC0 root=/dev/mtdblock3"
+#define CONFIG_BOOTARGS "console=ttySAC0,115200 root=/dev/mtdblock3"
 #define CONFIG_BOOTCOMMAND "nand read 30000000 kernel;bootm 30000000"
 
 /*-----------------------------------------------------------------------

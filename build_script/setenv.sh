@@ -1,1 +1,1 @@
-export PATH=/opt/usr/local/arm/4.3.2/bin:$PATH
+export PATH=/home/haobo/work/2440/tools/toolschain/bin:$PATH

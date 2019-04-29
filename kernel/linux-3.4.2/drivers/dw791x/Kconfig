@@ -1,0 +1,4 @@
+config DW791X
+	tristate "DW791x Haptic Driver"
+	help
+	 DW791x Haptic Driver
