@@ -1,1 +1,5 @@
+::sysinit:/etc/init.d/rcS
+::shutdown:/sbin/swapoff -a
+::shutdown:/bin/umount -a -r
+::restart:/sbin/init
 console::askfirst:-/bin/sh

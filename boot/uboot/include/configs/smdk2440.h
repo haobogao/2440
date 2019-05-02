@@ -136,7 +136,7 @@
  * Miscellaneous configurable options
  */
 #define CONFIG_SYS_LONGHELP		/* undef to save memory */
-#define CONFIG_SYS_PROMPT	"haobo# "
+#define CONFIG_SYS_PROMPT	"haobo@2440# "
 #define CONFIG_SYS_CBSIZE	256
 /* Print Buffer Size */
 #define CONFIG_SYS_PBSIZE	(CONFIG_SYS_CBSIZE + \
@@ -162,8 +162,13 @@
 #define CONFIG_LZMA
 
 #define CONFIG_CMD_NAND_YAFFS
-
+#define RELEASE
+#ifdef RELEASE
 #define CONFIG_BOOTARGS "console=ttySAC0,115200 root=/dev/mtdblock3"
+#else 
+#define CONFIG_BOOTARGS "console=ttySAC0,115200 root=/dev/nfs rw nfsroot=192.168.2.109:/home/haobo/work/2440/rootfs/root ip=192.168.2.17:192.168.2.109:192.168.2.1:255.255.255.0::eth0:off"
+#endif
+// root=/dev/nfs rw nfsroot=192.168.2.109:/home/haobo/work/2440/rootfs/root ip=192.168.2.17:192.168.2.109:192.168.2.1:255.255.255.0::eth0:off
 #define CONFIG_BOOTCOMMAND "nand read 30000000 kernel;bootm 30000000"
 
 /*-----------------------------------------------------------------------
@@ -217,9 +222,9 @@
 #define CONFIG_CMD_MTDPARTS
 #define CONFIG_MTD_DEVICE
 #define MTDIDS_DEFAULT		"nand0=jz2440-0"  /* 哪一个设备 */
-#define MTDPARTS_DEFAULT	"mtdparts=jz2440-0:256k(u-boot),"	\
-						"128k(params),"		\
-						"2m(kernel),"	\
+#define MTDPARTS_DEFAULT	"mtdparts=jz2440-0:3m(u-boot),"	\
+						"1m(params),"		\
+						"6m(kernel),"	\
 						"-(rootfs)"		\
 
 
